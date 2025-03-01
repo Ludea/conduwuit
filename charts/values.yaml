@@ -4,7 +4,7 @@ image:
   pullPolicy: IfNotPresent
 
 config:
-  server_name: "your.server.name"
+  server_name: "conduwuit"
   max_request_size: "20000000"
   allow_registration: false
   allow_federation: false
