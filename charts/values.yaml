@@ -7,6 +7,7 @@ config:
   server_name: "conduwuit"
   max_request_size: "20000000"
   allow_registration: false
+  registration_token: "mytoken" 
   allow_federation: false
   trusted_servers: []
 
