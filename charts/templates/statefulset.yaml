@@ -79,6 +79,8 @@ spec:
               value: "0.0.0.0"
             - name: CONDUWUIT_ROCKSDB_PARALLELISM_THREADS
               value: {{ $threads | quote }}
+            - name: CONDUWUIT_NEW_USER_DISPLAYNAME_SUFFIX
+              value: {{ .Values.config.displayname_suffix }}
             - name: RUST_LOG
               value: info
             {{- range .Values.extraEnv }}

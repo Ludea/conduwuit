@@ -10,6 +10,7 @@ config:
   registration_token: "mytoken" 
   allow_federation: false
   trusted_servers: []
+  displayname_suffix: "🏳️‍⚧️"
 
 extraEnv: []
 
